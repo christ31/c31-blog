@@ -8,3 +8,27 @@
 
 /* Clip Path */
 /* polygon(top bottom, top bottom, top bottom) */
+
+.c31-post p{
+  @apply mb-2;
+}
+
+.c31-post ul{
+  @apply mb-2 list-disc list-outside ml-6;
+}
+
+.c31-post a{
+  @apply text-color-miku-secondary hover:text-color-miku; 
+}
+
+.c31-post-quote{
+  @apply p-2 rounded-md bg-slate-300 w-fit mx-auto border-slate-400 border-dashed border-2;
+}
+
+.c31-post-dash{
+  @apply w-full h-[4px] bg-slate-500 rounded-full my-2;
+}
+
+.c31-post-tags p{
+  @apply py-1 px-2 rounded-full;
+}
