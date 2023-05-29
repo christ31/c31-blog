@@ -649,6 +649,10 @@ video {
   width: 20px;
 }
 
+.w-\[250px\] {
+  width: 250px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -693,6 +697,10 @@ video {
 
 .justify-self-center {
   justify-self: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-full {
@@ -861,8 +869,12 @@ video {
 }
 
 .c31-post a {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 102 91 / var(--tw-bg-opacity));
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
   --tw-text-opacity: 1;
-  color: rgb(10 102 91 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .c31-post a:hover {

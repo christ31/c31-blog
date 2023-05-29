@@ -18,7 +18,7 @@
 }
 
 .c31-post a{
-  @apply text-color-miku-secondary hover:text-color-miku; 
+  @apply text-white px-1 bg-color-miku-secondary hover:text-color-miku; 
 }
 
 .c31-post-quote{
