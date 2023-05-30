@@ -9,6 +9,25 @@
 /* Clip Path */
 /* polygon(top bottom, top bottom, top bottom) */
 
+/*! Header Section */
+.c31-header-island{
+  @apply grid grid-cols-6 gap-1 px-3 py-1 bg-black rounded-full drop-shadow-md;
+}
+
+.c31-header-title{
+  @apply flex justify-center self-center col-start-2 col-span-4;
+}
+
+.c31-header-winglet{
+  @apply w-[30px] flex justify-self-center justify-center text-white hover:bg-white hover:bg-opacity-20 hover:rounded-full hover:cursor-pointer transition-all;
+}
+
+
+/*! Blog Post Section */
+.c31-post{
+  @apply bg-slate-200 rounded-md p-4;
+}
+
 .c31-post p{
   @apply mb-2;
 }
@@ -31,4 +50,32 @@
 
 .c31-post-tags p{
   @apply py-1 px-2 rounded-full;
+}
+
+
+/*! Image */
+.c31-post-img{
+  @apply text-center bg-white w-fit mx-auto p-4 mb-4;
+}
+
+.c31-post-img .c31-img{
+  @apply mx-auto;
+}
+
+.c31-post-img p{
+  @apply mt-2;
+}
+
+
+/*! Table */
+.c31-post-table{
+  @apply bg-white rounded-md p-2 mb-4;
+}
+
+.c31-post-table thead tr th{
+  @apply border border-slate-600 p-1;
+}
+
+.c31-post-table tbody tr td{
+  @apply border border-slate-600 p-1;
 }
