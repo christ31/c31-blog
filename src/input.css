@@ -8,6 +8,7 @@
 
 /* Clip Path */
 /* polygon(top bottom, top bottom, top bottom) */
+/* left: 0% right: 100$ top:0% bottom:100% */
 
 /*! Header Section */
 .c31-header-island{
@@ -23,7 +24,29 @@
 }
 
 
+/*! Post Winglet */
+.c31-post-winglet{
+  @apply lg:absolute lg:-left-[190px] top-0 mb-2 rounded-lg lg:w-[200px] drop-shadow-md bg-slate-300 -z-10 transition-all;
+}
+
+.c31-post-winglet-author{
+  @apply mb-2 text-center bg-pink-800 text-white font-bold;
+} 
+
+.c31-post-winglet-tags{
+  @apply mb-2 text-center bg-orange-800 text-white font-bold;
+} 
+
+.c31-post-winglet-source{
+  @apply mb-2 text-center bg-red-800 text-white font-bold;
+}
+
+
 /*! Blog Post Section */
+.c31-post-container{
+  @apply mx-auto max-w-[768px] drop-shadow-md mb-12;
+}
+
 .c31-post{
   @apply bg-slate-200 rounded-md p-4;
 }
@@ -62,6 +85,10 @@
   @apply mx-auto;
 }
 
+.c31-img img{
+  @apply mx-auto;
+}
+
 .c31-post-img p{
   @apply mt-2;
 }
@@ -70,6 +97,10 @@
 /*! Table */
 .c31-post-table{
   @apply bg-white rounded-md p-2 mb-4;
+}
+
+.c31-post-table table{
+  @apply mx-auto;
 }
 
 .c31-post-table thead tr th{
