@@ -23,6 +23,18 @@
   @apply w-[30px] flex justify-self-center justify-center text-white hover:bg-white hover:bg-opacity-20 hover:rounded-full hover:cursor-pointer transition-all;
 }
 
+/*! Card Section */
+.c31-card{
+  @apply bg-slate-200 rounded-xl w-[300px] h-[200px];
+}
+
+.c31-card a{
+  @apply text-white bg-orange-600 hover:bg-orange-700 transition-all;
+}
+
+.c31-card p{
+  @apply text-sm;
+}
 
 /*! Post Winglet */
 .c31-post-winglet{
@@ -48,11 +60,11 @@
 }
 
 .c31-post{
-  @apply bg-slate-200 rounded-md p-4;
+  @apply bg-slate-200 rounded-md p-4 lg:p-6;
 }
 
 .c31-post p{
-  @apply mb-2;
+  @apply mb-4;
 }
 
 .c31-post ul{
@@ -60,7 +72,7 @@
 }
 
 .c31-post a{
-  @apply text-white px-1 bg-color-miku-secondary hover:text-color-miku; 
+  @apply text-white px-1 bg-color-miku-secondary hover:bg-orange-600 transition-all; 
 }
 
 .c31-post-quote{
@@ -90,7 +102,7 @@
 }
 
 .c31-post-img p{
-  @apply mt-2;
+  @apply mt-2 mb-0;
 }
 
 
