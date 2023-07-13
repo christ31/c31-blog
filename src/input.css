@@ -25,7 +25,9 @@
 
 /*! Card Section */
 .c31-card{
-  @apply bg-slate-200 rounded-xl w-[300px] h-[200px];
+  @apply bg-slate-200 rounded-xl w-[100vw] md:w-[250px] min-h-[200px] 
+    transition-all
+  ;
 }
 
 .c31-card a{
@@ -34,6 +36,10 @@
 
 .c31-card p{
   @apply text-sm;
+}
+
+.c31-card-img-bg{
+  @apply absolute opacity-10 top-0 left-0 w-full h-full object-contain;
 }
 
 /*! Post Winglet */
