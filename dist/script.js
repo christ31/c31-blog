@@ -16,12 +16,16 @@ function showTime(){
   "July", "August", "September", "October","November", "December"];
   
   if(h == 0){
-      h = 12;
+    h = 12;
+    session = "AM";
   }
   
+  if(h >= 12){
+    session = "PM";
+  }
+
   if(h > 12){
-      h = h - 12;
-      session = "PM";
+    h = h - 12;
   }
 
   if((h>5 && h<12) && session == "PM"){

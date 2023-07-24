@@ -122,7 +122,7 @@
 }
 
 .c31-post-table table{
-  @apply mx-auto;
+  @apply mx-auto mb-2;
 }
 
 .c31-post-table thead tr th{
@@ -131,4 +131,8 @@
 
 .c31-post-table tbody tr td{
   @apply border border-slate-600 p-1;
+}
+
+.c31-post-table p{
+  @apply text-center mb-0;
 }
