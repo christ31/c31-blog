@@ -721,6 +721,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
 .overflow-x-scroll {
   overflow-x: scroll;
 }
@@ -1199,6 +1203,21 @@ video {
 .c31-post-table p {
   margin-bottom: 0px;
   text-align: center;
+}
+
+/* ! Custom Scrollbar */
+
+::-webkit-scrollbar{
+  height: 15px;
+  width: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  border: 2px solid #14b8a6;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(255, 255, 255, 0.534);
+  border-radius: 20px;
 }
 
 .hover\:cursor-wait:hover {
