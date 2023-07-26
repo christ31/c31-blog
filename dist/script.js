@@ -54,3 +54,7 @@ function showTime(){
 }
 
 showTime();
+
+// ! Show version
+var version = "0.2";
+document.getElementById("version").textContent = "v"+version;

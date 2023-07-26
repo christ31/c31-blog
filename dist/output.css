@@ -665,6 +665,10 @@ video {
   width: 250px;
 }
 
+.w-\[384px\] {
+  width: 384px;
+}
+
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -725,10 +729,6 @@ video {
   overflow-x: auto;
 }
 
-.overflow-x-scroll {
-  overflow-x: scroll;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -747,9 +747,19 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
+.bg-color-c31-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 37 46 / var(--tw-bg-opacity));
+}
+
 .bg-color-miku-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(10 102 91 / var(--tw-bg-opacity));
+}
+
+.bg-color-osu\! {
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 35 115 / var(--tw-bg-opacity));
 }
 
 .bg-darkSecondary {
@@ -794,9 +804,29 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pr-6 {
@@ -916,7 +946,7 @@ video {
   gap: 0.25rem;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(35 37 46 / var(--tw-bg-opacity));
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-top: 0.25rem;
@@ -969,6 +999,14 @@ video {
   .c31-card {
     width: 250px;
   }
+}
+
+.c31-card-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+  max-width: 768px;
+  overflow-x: auto;
 }
 
 .c31-card a {

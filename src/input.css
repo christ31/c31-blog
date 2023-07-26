@@ -16,7 +16,7 @@
 }
 
 .c31-header-island{
-  @apply grid grid-cols-6 gap-1 px-3 py-1 bg-black rounded-full drop-shadow-md;
+  @apply grid grid-cols-6 gap-1 px-3 py-1 bg-color-c31-primary rounded-full drop-shadow-md;
 }
 
 .c31-header-title{
@@ -34,6 +34,10 @@
   ;
 }
 
+.c31-card-container{
+  @apply max-w-[768px] mx-auto overflow-x-auto mb-10;
+}
+
 .c31-card a{
   @apply text-white bg-orange-600 hover:bg-orange-700 transition-all;
 }
@@ -45,6 +49,7 @@
 .c31-card-img-bg{
   @apply absolute opacity-10 top-0 left-0 w-full h-full object-contain;
 }
+
 
 /*! Post Winglet */
 .c31-post-winglet{
