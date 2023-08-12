@@ -730,8 +730,16 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-items-center {
   justify-items: center;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .gap-2 {
@@ -825,8 +833,17 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
+.bg-color-miku {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 184 166 / var(--tw-bg-opacity));
+}
+
 .fill-white {
   fill: #fff;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-2 {
@@ -840,6 +857,11 @@ video {
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4 {
@@ -1084,6 +1106,17 @@ video {
   opacity: 0.1;
 }
 
+.c31-card-pill-month {
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 35 115 / var(--tw-bg-opacity));
+  padding: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 /*! Post Winglet */
 
 .c31-post-winglet {
@@ -1309,6 +1342,11 @@ video {
 .hover\:border-gray-200:hover {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.hover\:px-4:hover {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .group:hover .group-hover\:bg-color-miku {

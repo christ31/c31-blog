@@ -8,8 +8,20 @@
 - Apa itu Storage (SSD, HDD)
 
 
+## Advance Tech
+- Apa itu Hardware Acceleration?
+- Apa itu Hardware Encoding?
+- Apa itu 
+
+
 ## Linux Related
 - Apa itu Linux
 - Apa itu Desktop Environtment (DE), Window Manager (WM) ?
 - Apa itu Kernel
-- Apa itu 
+- Apa itu Display Server? Wayland dan Xorg
+
+
+## Tips and Stuff
+- Cara mengatasi overheat
+- Cara mengurangi spike lag
+- Cara merekam gameplay smooth 60FPS

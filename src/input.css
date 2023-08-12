@@ -50,6 +50,10 @@
   @apply absolute opacity-10 top-0 left-0 w-full h-full object-contain;
 }
 
+.c31-card-pill-month{
+  @apply p-1 px-3 text-white rounded-full bg-color-osu!;
+}
+
 
 /*! Post Winglet */
 .c31-post-winglet{
