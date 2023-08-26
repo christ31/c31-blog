@@ -39,12 +39,12 @@
 
   <!--! Body -->
   <section id="body" class="my-8">
-    <div class="flex flex-col items-center">
+    <div class="flex flex-row justify-center items-center gap-6">
       
       <!-- * Individual Card -->
       <a href="https://nyahello2023.ww35p.net/" target="_blank" class="card flex flex-col justify-items-center bg-darkSecondary w-[384px] overflow-hidden h-[300px] rounded-2xl border-2 border-color-miku shadow-lg hover:border-gray-200 transition-all">
-        <div class="overflow-hidden rounded-lg w-[100%]">
-          <video id="video1" width="100%" preload="metadata" loop autoplay muted>
+        <div class="overflow-hidden rounded-lg aspect-video">
+          <video class="object-cover w-full h-full" id="video1"  preload="metadata" loop autoplay muted>
             <source src="./assets/video/mikochi-5aniv-website.webm" type="video/mp4">
             Your browser does not support HTML video.
           </video>
@@ -56,7 +56,33 @@
             [N.Y.ahello Project]
           </div>
         </div>
+      </a>
 
+      <a href="https://impomu.com/" target="_blank" class="card flex flex-col justify-items-center bg-darkSecondary w-[384px] overflow-hidden h-[300px] rounded-2xl border-2 border-color-miku shadow-lg hover:border-gray-200 transition-all">
+        <div class="overflow-hidden rounded-lg aspect-video">
+          <video id="video1" width="100%" preload="metadata" loop autoplay muted>
+            <source src="./assets/video/I'm Pomu.webm" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+        </div>
+
+        <div class="flex grow text-center justify-center text-white">
+          <div class="self-center font-extrabold">
+            I'm Pomu
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.readsomethinggreat.com/" target="_blank" class="card flex flex-col justify-items-center bg-darkSecondary w-[384px] overflow-hidden h-[300px] rounded-2xl border-2 border-color-miku shadow-lg hover:border-gray-200 transition-all">
+        <div class="overflow-hidden rounded-lg aspect-video">
+          <img class="object-cover w-full h-full" src="assets/Read Something Great.png" alt="">
+        </div>
+
+        <div class="flex grow text-center justify-center text-white">
+          <div class="self-center font-extrabold">
+            Read Something Great
+          </div>
+        </div>
       </a>
     </div>
   </section>

@@ -109,7 +109,7 @@
 
 /*! Image */
 .c31-post-img{
-  @apply text-center bg-white w-fit mx-auto p-4 mb-4;
+  @apply text-center bg-white drop-shadow-sm w-fit mx-auto p-4 mb-4;
 }
 
 .c31-post-img .c31-img{

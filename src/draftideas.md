@@ -6,7 +6,7 @@
 - Apa itu Chipset
 - Apa itu Driver
 - Apa itu Storage (SSD, HDD)
-
+- Apa itu Bottlenect
 
 ## Advance Tech
 - Apa itu Hardware Acceleration?
