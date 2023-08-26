@@ -99,7 +99,7 @@
 }
 
 .c31-post-dash{
-  @apply w-full h-[4px] bg-slate-500 rounded-full my-2;
+  @apply w-full h-[4px] bg-slate-500 rounded-full my-4;
 }
 
 .c31-post-tags p{
