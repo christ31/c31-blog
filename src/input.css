@@ -146,6 +146,14 @@
   @apply text-center mb-0;
 }
 
+
+/* ! Notes Section */
+.c31-notes-card{
+  @apply flex flex-col flex-shrink-0 justify-items-center w-[384px] h-[280px] 
+  rounded-2xl border-2 overflow-hidden transition-all
+  bg-darkSecondary  border-color-miku shadow-lg hover:border-gray-200 ;
+}
+
 /* ! Custom Scrollbar */
 ::-webkit-scrollbar{
   height: 15px;
